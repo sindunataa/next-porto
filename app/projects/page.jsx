@@ -7,8 +7,8 @@ const projectData = [
   {
     image: '/work/peparprov.png',
     category: 'Fullstack',
-    name: 'PEPARPROV Jawa Tengah 2023 ',
-    description: 'A sports competition that takes place from September 9 to 13, 2023 in Pati Regency.',
+    name: 'NPC Jawa Tengah 2023 ',
+    description: 'A sports competition in Pati Regency.',
     link: 'https://peparprov.npcjateng.com/',
     github: 'https://github.com/sindunataa/npc-jateng',
   },

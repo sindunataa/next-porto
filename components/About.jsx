@@ -46,13 +46,13 @@ const qualificationData = [
         data:[
             {
                 company: 'PT. Semesta Ruang Inovasi',
-                role: 'Software Engineer',
+                role: 'Software Engineer Internship',
                 years: '2022 - 2023'
             },
             {
                 company: 'PT. Semesta Ruang Inovasi',
-                role: 'Software Engineer',
-                years: '2022 - 2023'
+                role: 'Freelance Software Engineer',
+                years: '2023 - now'
             },
         ]
     },
@@ -69,7 +69,7 @@ const skillData = [
                 name: 'Front-end Development',
             },
             {
-                name: 'Javascript, PHP, Phyton',
+                name: 'Javascript, PHP, Phyton, MySql',
             },
             {
                 name: 'Back-end Development',

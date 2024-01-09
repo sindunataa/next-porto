@@ -5,23 +5,19 @@ import Link from "next/link"
 
 const icons = [
   {
-    path:'/',
-    name: <RiYoutubeFill />,
-  },
-  {
-    path:'/',
+    path:'https://www.linkedin.com/in/sindu-nata-2983b91b9/',
     name: <RiLinkedinFill />,
   },
   {
-    path:'/',
+    path:'https://github.com/sindunataa',
     name: <RiGithubFill />,
   },
   {
-    path:'/',
+    path:'https://www.facebook.com/sindunata1st/',
     name: <RiFacebookFill />,
   },
   {
-    path:'/',
+    path:'https://www.instagram.com/sindunataa_/',
     name: <RiInstagramFill />,
   },
 ]
