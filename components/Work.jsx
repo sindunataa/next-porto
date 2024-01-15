@@ -14,36 +14,37 @@ import ProjectCard from '@/components/ProjectCard'
 const projectData = [
   {
     image: '/work/peparprov.png',
-    category: 'Fullstack',
-    name: 'NPC Jawa Tengah 2023 ',
-    description: 'A sports competition in Pati Regency.',
-    link: 'https://peparprov.npcjateng.com/',
-    github: 'https://github.com/sindunataa/npc-jateng', 
-  },
-  {
-    image: '/work/4.png',
-    category: 'Next Js',
-    name: 'PEPARPROV Jawa Tengah ',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
-    category: 'React Js',
-    name: 'PEPARPROV Jawa Tengah ',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/1.png',
     category: 'Laravel',
-    name: 'PEPARPROV Jawa Tengah ',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
+    name: 'NPC Jawa Tengah 2023 ',
+    description: 'A Sport Event for Paralympic Week IV Central Java 2023.',
+    link: 'https://peparprov.npcjateng.com/',
+    github: 'https://github.com/sindunataa/npc-jateng',
+  },
+  {
+    image: '/work/portfolio.png',
+    category: 'Next Js',
+    name: 'Portfolio-v1 ',
+    description: 'Welcome to the world of creation and innovation! My portfolio.',
+    link: 'https://sindunata.netlify.app/',
+    github: 'https://github.com/sindunataa/portfolio',
+  },
+  {
+    image: '/work/imagestock.png',
+    category: 'Laravel',
+    name: 'Imagestock',
+    description: 'Platform to manage and display your image galleries.',
+    link: 'http://mygallery.wuaze.com/',
+    github: 'https://github.com/sindunataa/laravel-image-stock',
+  },
+  {
+    image: '/work/xynpict.png',
+    category: 'Laravel',
+    name: 'Xynpict ',
+    description: 'Discover beauty in an instant with an easy-to-navigate interface.',
+    link: 'http://xynpict.wuaze.com/',
+    github: 'https://github.com/sindunataa/xynpict',
   }
+  
 ]
 const Work = () => {
   return <section className="relative mb-12 xl:mb-48">

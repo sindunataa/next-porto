@@ -6,35 +6,35 @@ import ProjectCard from "@/components/ProjectCard"
 const projectData = [
   {
     image: '/work/peparprov.png',
-    category: 'Fullstack',
+    category: 'Laravel',
     name: 'NPC Jawa Tengah 2023 ',
     description: 'A sports competition in Pati Regency.',
     link: 'https://peparprov.npcjateng.com/',
     github: 'https://github.com/sindunataa/npc-jateng',
   },
   {
-    image: '/work/4.png',
-    category: 'React Js',
-    name: 'PEPARPROV Jawa Tengah ',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/2.png',
+    image: '/work/imagestock.png',
     category: 'Laravel',
-    name: 'PEPARPROV Jawa Tengah ',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
+    name: 'Imagestock',
+    description: 'Platform to manage and display your image galleries.',
+    link: 'http://mygallery.wuaze.com/',
+    github: 'https://github.com/sindunataa/laravel-image-stock',
   },
   {
-    image: '/work/1.png',
+    image: '/work/xynpict.png',
+    category: 'Laravel',
+    name: 'Xynpict ',
+    description: 'Discover beauty in an instant with an easy-to-navigate interface..',
+    link: 'http://xynpict.wuaze.com/',
+    github: 'https://github.com/sindunataa/xynpict',
+  },
+  {
+    image: '/work/portfolio.png',
     category: 'Next Js',
-    name: 'PEPARPROV Jawa Tengah ',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    link: '/',
-    github: '/',
+    name: 'Portfolio-v1 ',
+    description: 'Welcome to the world of creation and innovation! My portfolio.',
+    link: 'https://sindunata.netlify.app/',
+    github: 'https://github.com/sindunataa/portfolio',
   }
 ]
 
@@ -60,7 +60,7 @@ const Projects = () => {
         My Project
       </h2>
       <Tabs defaultValue={category} className='mb-24 xl:mb-48'>
-        <TabsList className='w-full rounded-full grid h-full md:grid-cols-5 lg:max-w-[640px]
+        <TabsList className='w-full rounded-full grid h-full md:grid-cols-3 lg:max-w-[640px]
         mb-12 mx-auto md:border dark:border-none'>
           {categories.map((category, index) => {
             return <TabsTrigger 
